@@ -8,7 +8,8 @@ This page explains how to secure and set up a Linux distribution on a virtual ma
 - The web application is my [Item Catalog project]() created earlier in this Nanodegree program.
 - The database server is [PostgreSQL](https://www.postgresql.org/).
 
-[Currently this Public IP is unavailable after project submission].
+[Currently this Public IP is unavailable after project reviewed].
+
 You can visit http://13.235.113.203/ for the website deployed.
 
 Public ID: 13.235.113.203 .
