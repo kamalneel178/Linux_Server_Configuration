@@ -36,7 +36,7 @@ UserName: grader
 - From the `Account` menu on Amazon Lightsail, click on `SSH keys` tab and download the Default Private Key.
 - Move this private key file named `LightsailDefaultPrivateKey-*.pem` into the local folder `~/.ssh` and rename it `lightsail_key.rsa`.
 - In your terminal, type: `chmod 600 ~/.ssh/lightsail_key.rsa`.
-- To connect to the instance via the terminal: `ssh -i ~/.ssh/lightsail_key.rsa ubuntu@13.59.39.163`, 
+- To connect to the instance via the terminal: `ssh -i ~/.ssh/lightsail_key.rsa ubuntu@13.235.113.203`, 
   where `13.235.113.203` is the public IP address of the instance.
 
 <!--
@@ -383,7 +383,7 @@ le paraphrase est grader
 
 - While logged in as `grader`, create `/var/www/catalog/` directory.
 - Change to that directory and clone the catalog project:<br>
-`sudo git clone https://github.com/boisalai/udacity-catalog-app.git catalog`.
+`sudo git clone https://github.com/kamalneel178/udacity-catalog-app.git catalog`.
 - From the `/var/www` directory, change the ownership of the `catalog` directory to `grader` using: `sudo chown -R grader:grader catalog/`.
 - Change to the `/var/www/catalog/catalog` directory.
 - Rename the `application.py` file to `__init__.py` using: `mv application.py __init__.py`.
